@@ -1,0 +1,654 @@
+[2026-06-01 09:28:53] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:28:53] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:28:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:28:53
+[2026-06-01 09:32:39] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:32:39] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:32:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:32:39
+[2026-06-01 09:32:41] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:32:41] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:32:41] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:32:41
+[2026-06-01 09:35:43] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:35:43] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:35:43] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:35:43
+[2026-06-01 09:46:29] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:46:29] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:46:29] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:46:29
+[2026-06-01 09:46:34] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 09:46:34] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:46:34] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:46:34
+[2026-06-01 09:48:23] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:48:23] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:48:23] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:48:23
+[2026-06-01 09:48:59] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:48:59] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:48:59] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:48:59
+[2026-06-01 09:50:01] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:50:01] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:50:01] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:50:01
+[2026-06-01 09:50:08] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 09:50:08] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:50:08] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:50:08
+[2026-06-01 09:50:12] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:50:12] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:50:12] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:50:12
+[2026-06-01 09:52:39] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:52:39] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:52:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:52:39
+[2026-06-01 09:54:49] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:54:49] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:54:49] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:54:49
+[2026-06-01 09:54:50] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:54:50] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:54:50] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:54:50
+[2026-06-01 09:54:53] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 09:54:53] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:54:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:54:53
+[2026-06-01 09:56:58] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:56:58] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:56:58] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:56:58
+[2026-06-01 09:57:14] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 09:57:14] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:57:14] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:57:14
+[2026-06-01 09:57:23] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 09:57:23] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:57:23] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:57:23
+[2026-06-01 09:57:26] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:57:26] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:57:26] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:57:26
+[2026-06-01 09:59:57] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 09:59:57] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 09:59:57] SUCCESS: Token generated successfully. Expires at: 2026-06-01 10:59:57
+[2026-06-01 10:04:04] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 10:04:04] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:04] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:04
+[2026-06-01 10:04:15] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 10:04:15] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:15] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:15
+[2026-06-01 10:04:47] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 10:04:47] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:47] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:47
+[2026-06-01 10:04:50] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 10:04:50] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:50] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:50
+[2026-06-01 10:04:52] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 10:04:52] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:52] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:52
+[2026-06-01 10:04:56] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 10:04:56] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 10:04:56] SUCCESS: Token generated successfully. Expires at: 2026-06-01 11:04:56
+[2026-06-01 11:03:51] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:03:51] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:03:51] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:03:51
+[2026-06-01 11:06:53] START: Request received for slug: fifa-worldcup from IP: 172.19.19.1
+[2026-06-01 11:06:53] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:06:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:06:53
+[2026-06-01 11:06:56] START: Request received for slug: fifa-worldcup from IP: 172.19.19.1
+[2026-06-01 11:06:56] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:06:56] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:06:56
+[2026-06-01 11:06:59] START: Request received for slug: fifa-worldcup from IP: 172.19.19.1
+[2026-06-01 11:06:59] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:06:59] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:06:59
+[2026-06-01 11:07:59] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:07:59] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:07:59] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:07:59
+[2026-06-01 11:08:02] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:08:02] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:08:02] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:08:02
+[2026-06-01 11:08:07] START: Request received for slug: fifa-worldcup from IP: 172.19.19.1
+[2026-06-01 11:08:07] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:08:07] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:08:07
+[2026-06-01 11:09:46] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:09:46] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:09:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:09:46
+[2026-06-01 11:09:48] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:09:48] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:09:48] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:09:48
+[2026-06-01 11:09:58] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:09:58] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:09:58] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:09:58
+[2026-06-01 11:10:05] START: Request received for slug: telemunda_tv_fifa from IP: 172.19.19.1
+[2026-06-01 11:10:05] WARN: JOIN failed. Attempting standalone channel fetch for slug: telemunda_tv_fifa
+[2026-06-01 11:10:05] ERROR: Channel slug 'telemunda_tv_fifa' not found in database or inactive
+[2026-06-01 11:10:21] START: Request received for slug: telemunda_tv_fifa from IP: 172.19.19.1
+[2026-06-01 11:10:21] WARN: JOIN failed. Attempting standalone channel fetch for slug: telemunda_tv_fifa
+[2026-06-01 11:10:21] ERROR: Channel slug 'telemunda_tv_fifa' not found in database or inactive
+[2026-06-01 11:10:30] ERROR: Missing slug parameter
+[2026-06-01 11:10:37] START: Request received for slug: gg from IP: 172.19.19.1
+[2026-06-01 11:10:37] WARN: JOIN failed. Attempting standalone channel fetch for slug: gg
+[2026-06-01 11:10:37] ERROR: Channel slug 'gg' not found in database or inactive
+[2026-06-01 11:11:11] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:11:11] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:11:11] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:11:11
+[2026-06-01 11:13:15] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:13:15] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:15] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:15
+[2026-06-01 11:13:18] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:13:18] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:18] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:18
+[2026-06-01 11:13:21] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:13:21] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:21] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:21
+[2026-06-01 11:13:28] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:13:28] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:28] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:28
+[2026-06-01 11:13:31] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:13:31] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:31] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:31
+[2026-06-01 11:13:33] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:13:33] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:13:33] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:13:33
+[2026-06-01 11:15:45] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:15:45] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:15:45] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:15:45
+[2026-06-01 11:16:18] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:16:18] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:16:18] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:16:18
+[2026-06-01 11:16:36] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:16:36] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:16:36] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:16:36
+[2026-06-01 11:18:31] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:18:31] INFO: Using Secret Key (First 4 chars): i19d...
+[2026-06-01 11:18:31] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:18:31
+[2026-06-01 11:19:27] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:19:27] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:27] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:27
+[2026-06-01 11:19:28] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:19:28] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:28] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:28
+[2026-06-01 11:19:31] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:19:31] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:31] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:31
+[2026-06-01 11:19:33] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:19:33] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:33] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:33
+[2026-06-01 11:19:45] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:19:45] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:45] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:45
+[2026-06-01 11:19:46] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:19:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:46
+[2026-06-01 11:19:50] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:19:50] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:50] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:50
+[2026-06-01 11:19:58] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:19:58] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:19:58] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:19:58
+[2026-06-01 11:49:40] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:49:40] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:49:40] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:49:40
+[2026-06-01 11:49:46] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:49:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:49:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:49:46
+[2026-06-01 11:49:52] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:49:52] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:49:52] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:49:52
+[2026-06-01 11:50:00] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:50:00] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:50:00] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:50:00
+[2026-06-01 11:52:47] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:52:47] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:52:47] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:52:47
+[2026-06-01 11:53:09] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:53:09] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:09] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:09
+[2026-06-01 11:53:11] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:53:11] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:11] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:11
+[2026-06-01 11:53:19] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:53:19] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:19] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:19
+[2026-06-01 11:53:39] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:53:39] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:39
+[2026-06-01 11:53:49] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:53:49] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:49] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:49
+[2026-06-01 11:53:52] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:53:52] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:52] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:52
+[2026-06-01 11:53:54] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:53:54] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:53:54] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:53:54
+[2026-06-01 11:54:15] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:54:15] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:54:15] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:54:15
+[2026-06-01 11:54:22] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:54:22] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:54:22] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:54:22
+[2026-06-01 11:54:29] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:54:29] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:54:29] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:54:29
+[2026-06-01 11:54:39] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:54:39] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:54:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:54:39
+[2026-06-01 11:54:43] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:54:43] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:54:43] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:54:43
+[2026-06-01 11:55:38] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:55:38] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:38] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:38
+[2026-06-01 11:55:42] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:55:42] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:42
+[2026-06-01 11:55:44] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:55:44] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:44] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:44
+[2026-06-01 11:55:46] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:55:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:46
+[2026-06-01 11:55:51] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:55:51] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:51] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:51
+[2026-06-01 11:55:54] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:55:54] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:55:54] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:55:54
+[2026-06-01 11:56:14] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:56:14] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:56:14] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:56:14
+[2026-06-01 11:56:24] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:56:24] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:56:24] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:56:24
+[2026-06-01 11:56:53] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:56:53] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:56:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:56:53
+[2026-06-01 11:57:10] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:57:10] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:10] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:10
+[2026-06-01 11:57:31] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:57:31] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:31] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:31
+[2026-06-01 11:57:36] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:57:36] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:36] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:36
+[2026-06-01 11:57:38] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:57:38] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:38] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:38
+[2026-06-01 11:57:39] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:57:39] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:39
+[2026-06-01 11:57:41] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:57:41] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:41] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:41
+[2026-06-01 11:57:42] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 11:57:42] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:42
+[2026-06-01 11:57:44] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 11:57:44] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:44] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:44
+[2026-06-01 11:57:46] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 11:57:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 11:57:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 12:57:46
+[2026-06-01 12:03:42] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:03:42] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:03:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:03:42
+[2026-06-01 12:03:46] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:03:46] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:03:46] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:03:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:03:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:03:46
+[2026-06-01 12:03:48] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:03:48] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:03:48] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:03:48] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:03:48] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:03:48
+[2026-06-01 12:03:50] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:03:50] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:03:50] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:03:50
+[2026-06-01 12:03:55] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:03:55] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:03:55] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:03:55
+[2026-06-01 12:05:45] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:05:45] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:05:51] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:05:51] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:05:53] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:05:53] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:05:53] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:05:53] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:05:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:05:53
+[2026-06-01 12:05:57] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:05:57] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:05:57] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:05:57] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:05:57] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:05:57
+[2026-06-01 12:06:00] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:06:00] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:07:52] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:07:52] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:07:56] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:07:56] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:08:01] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:08:01] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:08:37] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:08:37] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:08:44] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:08:44] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:08:44] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:08:44] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:08:44] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:08:44
+[2026-06-01 12:10:59] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:10:59] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:11:11] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:11:11] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:11:26] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:11:26] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:11:26] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:11:26] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:11:26] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:11:26
+[2026-06-01 12:11:35] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:11:35] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:11:35] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:11:35] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:11:35] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:11:35
+[2026-06-01 12:15:33] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:15:33] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:15:55] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:15:55] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:16:08] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:16:08] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:16:28] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:16:28] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:16:28] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:16:28
+[2026-06-01 12:16:33] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:16:33] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:16:33] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:16:33
+[2026-06-01 12:18:59] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:18:59] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:18:59] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:18:59] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:18:59] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:18:59
+[2026-06-01 12:19:06] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:19:06] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:19:06] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:19:09] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:19:09] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:19:09] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:19:11] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:19:11] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:19:11] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:19:14] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:19:14] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:19:14] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:19:49] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:19:49] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:19:49] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:19:49
+[2026-06-01 12:20:37] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:20:37] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:20:37] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:20:37
+[2026-06-01 12:21:26] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:21:26] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:21:26] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:21:26
+[2026-06-01 12:21:42] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:21:42] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:21:42] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:21:42] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:21:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:21:42
+[2026-06-01 12:21:48] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:21:48] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:21:48] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:21:48
+[2026-06-01 12:22:04] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:22:04] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:04] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:04
+[2026-06-01 12:22:09] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:22:09] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:09] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:09
+[2026-06-01 12:22:12] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:22:12] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:22:12] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:12] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:12] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:12
+[2026-06-01 12:22:16] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:22:16] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:22:16] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:16] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:16] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:16
+[2026-06-01 12:22:19] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:22:19] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:22:19] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:19] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:19] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:19
+[2026-06-01 12:22:21] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:22:21] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:21] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:21
+[2026-06-01 12:22:30] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:22:30] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:30] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:30
+[2026-06-01 12:22:37] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:22:37] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:37] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:37
+[2026-06-01 12:22:39] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:22:39] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:22:39] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:39] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:39] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:39
+[2026-06-01 12:22:46] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:22:46] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:22:46] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:46
+[2026-06-01 12:22:48] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:22:48] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:22:48] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:48] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:48] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:48
+[2026-06-01 12:22:51] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:22:51] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:22:51] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:22:51] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:22:51] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:22:51
+[2026-06-01 12:23:30] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:23:30] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:23:30] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:23:30
+[2026-06-01 12:23:32] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:23:32] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:23:32] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:23:32] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:23:32] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:23:32
+[2026-06-01 12:23:34] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:23:34] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:23:34] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:23:34] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:23:34] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:23:34
+[2026-06-01 12:23:38] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:23:38] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:23:38] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:23:38
+[2026-06-01 12:24:01] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:24:01] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:01] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:01
+[2026-06-01 12:24:02] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:24:02] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:02] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:02
+[2026-06-01 12:24:05] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:24:05] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:24:05] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:05] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:05] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:05
+[2026-06-01 12:24:12] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:24:12] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:24:12] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:12] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:12] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:12
+[2026-06-01 12:24:16] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:24:16] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:24:16] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:16] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:16] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:16
+[2026-06-01 12:24:17] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:24:17] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:24:17] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:17] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:17] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:17
+[2026-06-01 12:24:21] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:24:21] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:24:21] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:24:21] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:24:21] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:24:21] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:21] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:21] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:21
+[2026-06-01 12:24:22] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:24:22] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:24:22] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:22] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:22] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:22
+[2026-06-01 12:24:23] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:24:23] WARN: JOIN failed. Attempting standalone channel fetch for slug: fifaworldcup
+[2026-06-01 12:24:23] SUCCESS: Token not required for slug: fifaworldcup. Returning raw URL.
+[2026-06-01 12:24:26] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:24:26] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:24:26] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:26] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:26] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:26
+[2026-06-01 12:24:28] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:24:28] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:24:28] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:24:28] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:24:28] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:24:28
+[2026-06-01 12:27:06] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:27:06] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:27:06] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:27:06] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:27:06] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:27:06
+[2026-06-01 12:27:09] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:27:09] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:27:09] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:27:09
+[2026-06-01 12:27:12] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:27:12] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:27:12] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:27:12] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:27:12] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:27:12
+[2026-06-01 12:27:14] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:27:14] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:27:14] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:27:14] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:27:14] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:27:14
+[2026-06-01 12:30:17] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:30:17] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:30:17] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:30:17] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:30:17] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:30:17
+[2026-06-01 12:30:20] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:30:20] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:30:20] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:30:20
+[2026-06-01 12:30:24] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:30:24] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:30:24] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:30:24
+[2026-06-01 12:31:15] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:31:15] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:31:15] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:31:15
+[2026-06-01 12:31:17] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:31:17] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:31:17] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:31:17
+[2026-06-01 12:31:18] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:31:18] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:31:18] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:31:18] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:31:18] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:31:18
+[2026-06-01 12:40:45] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:40:45] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:40:45] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:40:45
+[2026-06-01 12:40:52] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:40:52] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:40:52] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:40:52
+[2026-06-01 12:41:49] START: Request received for slug: fifaworldcup from IP: 172.19.19.1
+[2026-06-01 12:41:49] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:41:49] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:41:49
+[2026-06-01 12:41:54] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:41:54] WARN: JOIN failed. Attempting standalone channel fetch for slug: test
+[2026-06-01 12:41:54] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:41:54] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:41:54] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:41:54
+[2026-06-01 12:45:34] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:45:34] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:45:34] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:45:34
+[2026-06-01 12:45:35] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:45:35] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:45:35] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:45:35
+[2026-06-01 12:45:46] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:45:46] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:45:46] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:45:46
+[2026-06-01 12:45:53] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:45:53] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:45:53] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:45:53] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:45:53] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:45:53
+[2026-06-01 12:45:56] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:45:56] WARN: JOIN failed. Attempting standalone channel fetch for slug: T-SPORTS_FHD
+[2026-06-01 12:45:56] INFO: No explicit secret_key from JOIN. Fetching fallback active server key.
+[2026-06-01 12:45:56] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:45:56] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:45:56
+[2026-06-01 12:46:21] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:46:21] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:46:21] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:46:21
+[2026-06-01 12:46:23] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:46:23] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:46:23] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:46:23
+[2026-06-01 12:46:25] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:46:25] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:46:25] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:46:25
+[2026-06-01 12:46:35] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:46:35] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:46:35] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:46:35
+[2026-06-01 12:46:42] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:46:42] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:46:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:46:42
+[2026-06-01 12:47:21] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:47:21] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:47:21] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:47:21
+[2026-06-01 12:47:27] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 12:47:27] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:47:27] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:47:27
+[2026-06-01 12:47:36] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:47:36] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:47:36] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:47:36
+[2026-06-01 12:47:38] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:47:38] INFO: Using Secret Key (First 4 chars): hI@3...
+[2026-06-01 12:47:38] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:47:38
+[2026-06-01 12:50:47] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:50:47] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 12:50:47] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:50:47
+[2026-06-01 12:50:55] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:50:55] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 12:50:55] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:50:55
+[2026-06-01 12:52:07] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 12:52:07] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 12:52:07] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:52:07
+[2026-06-01 12:52:10] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:52:10] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 12:52:10] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:52:10
+[2026-06-01 12:52:11] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 12:52:11] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 12:52:11] SUCCESS: Token generated successfully. Expires at: 2026-06-01 13:52:11
+[2026-06-01 13:48:38] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 13:48:38] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:48:38] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:48:38
+[2026-06-01 13:48:42] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 13:48:42] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:48:42] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:48:42
+[2026-06-01 13:49:37] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 13:49:37] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:49:37] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:49:37
+[2026-06-01 13:49:43] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 13:49:43] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:49:43] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:49:43
+[2026-06-01 13:50:36] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 13:50:36] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:50:36] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:50:36
+[2026-06-01 13:52:26] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 13:52:26] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:52:26] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:52:26
+[2026-06-01 13:55:09] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 13:55:09] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 13:55:09] SUCCESS: Token generated successfully. Expires at: 2026-06-01 14:55:09
+[2026-06-01 14:12:19] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 14:12:19] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:12:19] SUCCESS: Token generated successfully. Expires at: 2026-06-01 15:12:19
+[2026-06-01 14:12:28] START: Request received for slug: test from IP: 172.19.19.1
+[2026-06-01 14:12:28] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:12:28] SUCCESS: Token generated successfully. Expires at: 2026-06-01 15:12:28
+[2026-06-01 14:12:31] START: Request received for slug: T-SPORTS_FHD from IP: 172.19.19.1
+[2026-06-01 14:12:31] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:12:31] SUCCESS: Token generated successfully. Expires at: 2026-06-01 15:12:31
+[2026-06-01 14:13:12] START: Request received for slug: telemunda247 from IP: 172.19.19.1
+[2026-06-01 14:13:12] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:13:12] SUCCESS: Token generated successfully. Expires at: 2026-06-01 15:13:12

@@ -1,0 +1,12 @@
+[2026-06-01 14:12:20] START: Auth request received from Flussonic IP: 172.19.19.2
+[2026-06-01 14:12:20] INFO: Processing stream: telemunda247, Token: c62b54f1d87c46a6639f8c43767d984a8ed936862f29c05e6a4cb4736e36aaf5-1780297939
+[2026-06-01 14:12:20] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:12:20] SUCCESS: Access allowed for stream: telemunda247
+[2026-06-01 14:12:28] START: Auth request received from Flussonic IP: 172.19.19.2
+[2026-06-01 14:12:28] INFO: Processing stream: test, Token: 2c3e75f9d13b844ca7a779d47d7dffdbc16eee7147b5d995e5dc8811bd28405d-1780297948
+[2026-06-01 14:12:28] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:12:28] SUCCESS: Access allowed for stream: test
+[2026-06-01 14:13:13] START: Auth request received from Flussonic IP: 172.19.19.2
+[2026-06-01 14:13:13] INFO: Processing stream: telemunda247, Token: 21ba5f10f860977d0a69845149199efaa2e9849ec6b66c1b584b031bc1b477c3-1780297992
+[2026-06-01 14:13:13] INFO: Using Secret Key (First 4 chars): zGCT...
+[2026-06-01 14:13:13] SUCCESS: Access allowed for stream: telemunda247
