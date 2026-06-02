@@ -12,8 +12,7 @@ if (isset($_SESSION['user_id'])) {
 $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Brute-force: সামান্য delay
-    usleep(200000); // 0.2s
+  // Brute-force delay removed for snappier UX; apply small delay only on failed auth
 
   // CSRF protection for login form
   $posted_csrf = $_POST['csrf_token'] ?? '';
@@ -47,7 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['role']     = !empty($data['role']) ? trim($data['role']) : 'editor';
             header("Location: index.php"); exit;
         } else {
-            $error = "ইউজারনেম বা পাসওয়ার্ড ভুল!";
+          // Small delay to hinder brute-force attempts
+          usleep(150000); // 0.15s
+          $error = "ইউজারনেম বা পাসওয়ার্ড ভুল!";
         }
     }
 }

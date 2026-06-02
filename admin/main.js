@@ -91,7 +91,10 @@ function _loadFlServerDropdown(selectedServerId) {
         let opts = '<option value="">— Select Flusonic Server —</option>';
         _flServersCache.forEach(function(s) {
             let sel = (selectedServerId && String(s.id) === String(selectedServerId)) ? 'selected' : '';
-            opts += `<option value="${s.id}" data-url="${s.server_url}" data-ip="${s.server_ip}" ${sel}>${s.label} (${s.server_ip})</option>`;
+            // Normalize server_url: ensure scheme present
+            let serverUrl = s.server_url || '';
+            if (serverUrl && !/^https?:\/\//i.test(serverUrl)) serverUrl = 'http://' + serverUrl;
+            opts += `<option value="${s.id}" data-url="${serverUrl}" data-ip="${s.server_ip}" ${sel}>${s.label} (${s.server_ip})</option>`;
         });
         $('#fl_server_select').html(opts);
         _updateFlBasePreview();
@@ -274,8 +277,11 @@ function editCh(data) {
         let streamSlug    = '';
 
         _flServersCache.forEach(function(s) {
-            let sUrl = (s.server_url || '').replace(/\/$/, '');
-            if (url.startsWith(sUrl + '/')) {
+                // Normalize stored server URL for matching
+                let sUrl = s.server_url || '';
+                if (sUrl && !/^https?:\/\//i.test(sUrl)) sUrl = 'http://' + sUrl;
+                sUrl = sUrl.replace(/\/$/, '');
+                if (url.startsWith(sUrl + '/')) {
                 matchedServer = s;
                 // Extract slug: remove server_url prefix and /index.m3u8 suffix
                 streamSlug = url.replace(sUrl + '/', '').replace(/\/index\.m3u8(\?.*)?$/, '');
