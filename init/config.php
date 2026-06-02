@@ -7,7 +7,8 @@
 
 // ── রুট ক্রেডেনশিয়াল (env বা হার্ডকোড) ──────────────────
 define('ROOT_USER', getenv('OTT_ROOT_USER') ?: 'superadmin');
-define('ROOT_PASS', getenv('OTT_ROOT_PASS') ?: 'Change@Me#2025!');
+// Require explicit root password via environment in production. Empty means disabled.
+define('ROOT_PASS', getenv('OTT_ROOT_PASS') ?: '');
 
 // ── Token কনফিগারেশন ──────────────────────────────────────
 define('TOKEN_TTL',    3600);          // টোকেন কতক্ষণ ভ্যালিড (সেকেন্ড)
@@ -18,7 +19,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_set_cookie_params([
         'lifetime' => 0,
         'path'     => '/',
-        'secure'   => false,   // HTTPS প্রোডাকশনে true করুন
+        'secure'   => (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'),
         'httponly' => true,
         'samesite' => 'Strict',
     ]);
@@ -32,6 +33,15 @@ $db_path = __DIR__ . '/../database/stream_db.sqlite';
 if (!is_dir(dirname($db_path))) {
     mkdir(dirname($db_path), 0750, true);
 }
+
+// লোগ ডিরেক্টরি (ওয়েব-রুটের বাইরে রাখা ভাল)
+define('LOG_DIR', __DIR__ . '/../logs');
+if (!is_dir(LOG_DIR)) {
+    @mkdir(LOG_DIR, 0750, true);
+}
+
+// ট্রাস্টেড প্রোক্সি তালিকা (কমা-সেপারেটেড), যদি আপনার ইনফ্রা-এ থাকে সেট করুন
+define('TRUSTED_PROXIES', getenv('TRUSTED_PROXIES') ?: '');
 
 try {
     $db = new SQLite3($db_path);
@@ -95,14 +105,23 @@ $db->exec("
     );
 ");
 
-// ── ডিফল্ট অ্যাডমিন (খালি থাকলে) ────────────────────────
+// ── ডিফল্ট অ্যাডমিন (খালি থাকলে) — নিরাপদভাবে সৃষ্ট হবে এবং পাসওয়ার্ড লগে রাখা হবে
 $userCount = $db->querySingle("SELECT COUNT(*) FROM users");
 if ($userCount == 0) {
-    $defaultPass = password_hash('admin123', PASSWORD_BCRYPT, ['cost' => 12]);
+    try {
+        $plain = bin2hex(random_bytes(8));
+    } catch (Exception $e) {
+        $plain = 'ChangeMe!' . time();
+    }
+    $hash = password_hash($plain, PASSWORD_BCRYPT, ['cost' => 12]);
     $stmt = $db->prepare("INSERT INTO users (username, password, role) VALUES (:u, :p, 'admin')");
     $stmt->bindValue(':u', 'admin', SQLITE3_TEXT);
-    $stmt->bindValue(':p', $defaultPass, SQLITE3_TEXT);
+    $stmt->bindValue(':p', $hash, SQLITE3_TEXT);
     $stmt->execute();
+
+    // লিখে রাখুন লোকাল লগে — production এ ফাইল অনুমতি কনফিগ করুন
+    $msg = "Default admin created: username=admin password={$plain}\n";
+    @file_put_contents(LOG_DIR . '/setup_admin.txt', $msg, FILE_APPEND | LOCK_EX);
 }
 
 // ── CSRF টোকেন ────────────────────────────────────────────

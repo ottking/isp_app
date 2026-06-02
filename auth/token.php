@@ -1,13 +1,15 @@
 <?php
 header("Content-Type: application/json; charset=utf-8");
-header("Access-Control-Allow-Origin: *");
+// Restrict CORS to same origin to prevent arbitrary cross-site token requests
+$origin = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? '');
+header("Access-Control-Allow-Origin: " . $origin);
 
 require_once __DIR__ . '/../init/config.php';
 
 function logTokenState($message) {
-    $logFile = __DIR__ . '/token_debug.log';
+    $logFile = LOG_DIR . '/token_debug.log';
     $timestamp = date('Y-m-d H:i:s');
-    file_put_contents($logFile, "[$timestamp] $message" . PHP_EOL, FILE_APPEND);
+    @file_put_contents($logFile, "[$timestamp] $message" . PHP_EOL, FILE_APPEND | LOCK_EX);
 }
 
 $slug = trim($_GET['slug'] ?? '');
@@ -78,7 +80,7 @@ if (empty($channel['secret_key'])) {
     $channel['secret_key'] = $fallback;
 }
 
-logTokenState("INFO: Using Secret Key (First 4 chars): " . substr($channel['secret_key'], 0, 4) . "...");
+logTokenState("INFO: Secret key loaded for token generation (not logged for security)");
 
 $endTime  = time() + TOKEN_TTL;
 $hash     = hash_hmac(TOKEN_ALGO, $slug . $endTime, $channel['secret_key']);

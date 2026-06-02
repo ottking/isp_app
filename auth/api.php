@@ -12,9 +12,9 @@ try {
 }
 
 function logAuthState($message) {
-    $logFile = __DIR__ . '/api_debug.log';
+    $logFile = LOG_DIR . '/auth_api.log';
     $timestamp = date('Y-m-d H:i:s');
-    file_put_contents($logFile, "[$timestamp] $message" . PHP_EOL, FILE_APPEND);
+    @file_put_contents($logFile, "[$timestamp] $message" . PHP_EOL, FILE_APPEND | LOCK_EX);
 }
 
 function reject(string $reason) {
@@ -24,12 +24,16 @@ function reject(string $reason) {
     exit;
 }
 
+// Determine client IP. Only trust X-Forwarded-For / X-Real-IP when request comes
+// through a trusted proxy configured in TRUSTED_PROXIES (see init/config.php).
 $flussonicIp = $_SERVER['REMOTE_ADDR'] ?? '';
-
-if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-    $flussonicIp = trim(explode(',', $_SERVER['HTTP_X_FORWARDED_FOR'])[0]);
-} elseif (isset($_SERVER['HTTP_X_REAL_IP'])) {
-    $flussonicIp = $_SERVER['HTTP_X_REAL_IP'];
+$trusted = array_filter(array_map('trim', explode(',', TRUSTED_PROXIES)));
+if (!empty($trusted) && in_array($_SERVER['REMOTE_ADDR'] ?? '', $trusted, true)) {
+    if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $flussonicIp = trim(explode(',', $_SERVER['HTTP_X_FORWARDED_FOR'])[0]);
+    } elseif (isset($_SERVER['HTTP_X_REAL_IP'])) {
+        $flussonicIp = $_SERVER['HTTP_X_REAL_IP'];
+    }
 }
 
 logAuthState("START: Auth request received from Flussonic IP: $flussonicIp");
@@ -71,7 +75,7 @@ if (!$row) {
     $secretKey = $row['secret_key'];
 }
 
-logAuthState("INFO: Using Secret Key (First 4 chars): " . substr($secretKey, 0, 4) . "...");
+logAuthState("INFO: Secret key loaded for authentication (not logged for security)");
 
 $stmt2 = $db->prepare("SELECT token_action FROM channels WHERE channel_slug = :slug AND status = 'active' LIMIT 1");
 $stmt2->bindValue(':slug', $streamSlug, SQLITE3_TEXT);
@@ -96,7 +100,7 @@ if (time() > (int)$endTimeStr) reject('Token expired');
 $expectedHash = hash_hmac('sha256', $streamSlug . $endTimeStr, $secretKey);
 
 if (!hash_equals($expectedHash, $receivedHash)) {
-    logAuthState("ERROR: Hash mismatch. Expected: $expectedHash, Received: $receivedHash");
+    logAuthState("ERROR: Hash mismatch for stream: $streamSlug");
     reject('Hash mismatch');
 }
 

@@ -36,29 +36,32 @@ if (isset($_GET['get'])) {
                 <th>#</th><th>Logo</th><th>চ্যানেল</th><th>Status</th><th>Token</th><th>Action</th>
               </tr></thead><tbody>';
         $i = 1;
-        while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
-            $js   = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
+                while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
+                        $js   = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
             $stBadge = $r['status'] === 'active'
                 ? '<span class="badge bg-success">Active</span>'
                 : '<span class="badge bg-secondary">Inactive</span>';
             $tkBadge = $r['token_action'] === 'yes'
                 ? '<span class="badge bg-primary">🔒 On</span>'
                 : '<span class="badge bg-warning text-dark">🔓 Off</span>';
-            echo "<tr>
-                    <td>$i</td>
-                    <td><img src='{$r['logo']}' width='32' height='32' style='border-radius:6px;object-fit:cover'
-                        onerror=\"this.src='https://via.placeholder.com/32'\"></td>
-                    <td><b>{$r['channel_name']}</b><br>
-                        <small class='text-muted'><code>{$r['channel_slug']}</code></small></td>
-                    <td>$stBadge</td>
-                    <td>$tkBadge</td>
-                    <td>
-                      <button class='btn btn-sm btn-outline-info me-1' onclick='editCh($js)' title='Edit'>
-                        <i class='fa fa-edit'></i></button>
-                      <button class='btn btn-sm btn-outline-danger' onclick=\"del('ch',{$r['id']})\" title='Delete'>
-                        <i class='fa fa-trash'></i></button>
-                    </td>
-                  </tr>";
+                        $logo = htmlspecialchars($r['logo'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $cname = htmlspecialchars($r['channel_name'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $cslug = htmlspecialchars($r['channel_slug'] ?? '', ENT_QUOTES, 'UTF-8');
+                        echo "<tr>
+                                        <td>$i</td>
+                                        <td><img src='$logo' width='32' height='32' style='border-radius:6px;object-fit:cover'
+                                                onerror=\"this.src='https://via.placeholder.com/32'\"></td>
+                                        <td><b>$cname</b><br>
+                                                <small class='text-muted'><code>$cslug</code></small></td>
+                                        <td>$stBadge</td>
+                                        <td>$tkBadge</td>
+                                        <td>
+                                            <button class='btn btn-sm btn-outline-info me-1' onclick='editCh($js)' title='Edit'>
+                                                <i class='fa fa-edit'></i></button>
+                                            <button class='btn btn-sm btn-outline-danger' onclick=\"del('ch',{$r['id']})\" title='Delete'>
+                                                <i class='fa fa-trash'></i></button>
+                                        </td>
+                                    </tr>";
             $i++;
         }
         echo '</tbody></table></div>';
@@ -73,18 +76,20 @@ if (isset($_GET['get'])) {
                 <th>#</th><th>Order</th><th>নাম</th><th>Slug</th><th>Action</th>
               </tr></thead><tbody>';
         $i = 1;
-        while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
-            $js = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
-            echo "<tr>
-                    <td>$i</td>
-                    <td><span class='badge bg-light text-dark border'>{$r['ordering']}</span></td>
-                    <td><b>{$r['cat_name']}</b></td>
-                    <td><code>{$r['cat_id']}</code></td>
-                    <td>
-                      <button class='btn btn-sm btn-outline-info me-1' onclick='editCat($js)'><i class='fa fa-edit'></i></button>
-                      <button class='btn btn-sm btn-outline-danger' onclick=\"del('cat',{$r['id']})\"><i class='fa fa-trash'></i></button>
-                    </td>
-                  </tr>";
+                while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
+                        $js = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
+                        $cname = htmlspecialchars($r['cat_name'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $cid   = htmlspecialchars($r['cat_id'] ?? '', ENT_QUOTES, 'UTF-8');
+                        echo "<tr>
+                                        <td>$i</td>
+                                        <td><span class='badge bg-light text-dark border'>{$r['ordering']}</span></td>
+                                        <td><b>$cname</b></td>
+                                        <td><code>$cid</code></td>
+                                        <td>
+                                            <button class='btn btn-sm btn-outline-info me-1' onclick='editCat($js)'><i class='fa fa-edit'></i></button>
+                                            <button class='btn btn-sm btn-outline-danger' onclick=\"del('cat',{$r['id']})\"><i class='fa fa-trash'></i></button>
+                                        </td>
+                                    </tr>";
             $i++;
         }
         echo '</tbody></table></div>';
@@ -99,19 +104,21 @@ if (isset($_GET['get'])) {
                 <th>#</th><th>Title</th><th>Message</th><th>Ends</th><th>Action</th>
               </tr></thead><tbody>';
         $i = 1;
-        while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
-            $js  = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
-            $end = $r['end_time'] ?: '—';
-            echo "<tr>
-                    <td>$i</td>
-                    <td><b>{$r['title']}</b></td>
-                    <td class='text-muted small'>{$r['msg']}</td>
-                    <td><small>$end</small></td>
-                    <td>
-                      <button class='btn btn-sm btn-outline-info me-1' onclick='editNotify($js)'><i class='fa fa-edit'></i></button>
-                      <button class='btn btn-sm btn-outline-danger' onclick=\"del('notify',{$r['id']})\"><i class='fa fa-trash'></i></button>
-                    </td>
-                  </tr>";
+                while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
+                        $js  = htmlspecialchars(json_encode($r), ENT_QUOTES, 'UTF-8');
+                        $end = $r['end_time'] ?: '—';
+                        $title = htmlspecialchars($r['title'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $msg   = htmlspecialchars($r['msg'] ?? '', ENT_QUOTES, 'UTF-8');
+                        echo "<tr>
+                                        <td>$i</td>
+                                        <td><b>$title</b></td>
+                                        <td class='text-muted small'>$msg</td>
+                                        <td><small>$end</small></td>
+                                        <td>
+                                            <button class='btn btn-sm btn-outline-info me-1' onclick='editNotify($js)'><i class='fa fa-edit'></i></button>
+                                            <button class='btn btn-sm btn-outline-danger' onclick=\"del('notify',{$r['id']})\"><i class='fa fa-trash'></i></button>
+                                        </td>
+                                    </tr>";
             $i++;
         }
         echo '</tbody></table></div>';
@@ -126,27 +133,30 @@ if (isset($_GET['get'])) {
                 <th>#</th><th>Label</th><th>Server IP/Host</th><th>URL</th><th>Status</th><th>Action</th>
               </tr></thead><tbody>';
         $i = 1;
-        while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
+                while ($r = $res->fetchArray(SQLITE3_ASSOC)) {
             // Secret key মাস্ক করা — UI-তে দেখাবো না
             $display = $r;
             unset($display['secret_key']);
-            $js = htmlspecialchars(json_encode($display), ENT_QUOTES, 'UTF-8');
+                        $js = htmlspecialchars(json_encode($display), ENT_QUOTES, 'UTF-8');
             $stBadge = $r['status'] === 'active'
                 ? '<span class="badge bg-success">Active</span>'
                 : '<span class="badge bg-secondary">Inactive</span>';
-            echo "<tr>
-                    <td>$i</td>
-                    <td><b>{$r['label']}</b></td>
-                    <td><code>{$r['server_ip']}</code></td>
-                    <td><small class='text-muted'>{$r['server_url']}</small></td>
-                    <td>$stBadge</td>
-                    <td>
-                      <button class='btn btn-sm btn-outline-info me-1' onclick='editFlServer($js)' title='Edit'>
-                        <i class='fa fa-edit'></i></button>
-                      <button class='btn btn-sm btn-outline-danger' onclick=\"del('fl_server',{$r['id']})\" title='Delete'>
-                        <i class='fa fa-trash'></i></button>
-                    </td>
-                  </tr>";
+                        $label = htmlspecialchars($r['label'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $sip   = htmlspecialchars($r['server_ip'] ?? '', ENT_QUOTES, 'UTF-8');
+                        $surl  = htmlspecialchars($r['server_url'] ?? '', ENT_QUOTES, 'UTF-8');
+                        echo "<tr>
+                                        <td>$i</td>
+                                        <td><b>$label</b></td>
+                                        <td><code>$sip</code></td>
+                                        <td><small class='text-muted'>$surl</small></td>
+                                        <td>$stBadge</td>
+                                        <td>
+                                            <button class='btn btn-sm btn-outline-info me-1' onclick='editFlServer($js)' title='Edit'>
+                                                <i class='fa fa-edit'></i></button>
+                                            <button class='btn btn-sm btn-outline-danger' onclick=\"del('fl_server',{$r['id']})\" title='Delete'>
+                                                <i class='fa fa-trash'></i></button>
+                                        </td>
+                                    </tr>";
             $i++;
         }
         echo '</tbody></table></div>';
@@ -233,6 +243,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             die("Error: Name, Slug and URL are required!");
         }
 
+        // Basic validation: slug and URL
+        if (!preg_match('/^[a-z0-9\-]+$/', $slug)) {
+            die("Error: Invalid slug. Use lowercase letters, numbers and hyphens only.");
+        }
+        if (!filter_var($url, FILTER_VALIDATE_URL)) {
+            die("Error: Invalid URL provided.");
+        }
+
         if ($id > 0) {
             $sql = "UPDATE channels SET channel_name=:n, channel_slug=:s, channel_url=:u,
                     logo=:l, category_id=:c, status=:st, token_action=:tk WHERE id=:id";
@@ -250,7 +268,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':tk', $tk,   SQLITE3_TEXT);
         if ($id > 0) $stmt->bindValue(':id', $id, SQLITE3_INTEGER);
 
-        $stmt->execute() ? print("Success: Channel saved!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Channel saved!");
+        } else {
+            // log real DB error
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - save_ch DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── ক্যাটাগরি সেভ ──────────────────────────────────────
@@ -274,7 +298,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':ci',  $ci,   SQLITE3_TEXT);
         if ($ord >= 0) $stmt->bindValue(':ord', $ord, SQLITE3_INTEGER);
 
-        $stmt->execute() ? print("Success: Category saved!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Category saved!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - save_cat DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── নোটিফিকেশন সেভ ─────────────────────────────────────
@@ -296,7 +325,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':m', $msg,   SQLITE3_TEXT);
         $stmt->bindValue(':e', $end,   SQLITE3_TEXT);
 
-        $stmt->execute() ? print("Success: Notification saved!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Notification saved!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - save_notify DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── Flusonic সার্ভার সেভ ───────────────────────────────
@@ -336,7 +370,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':k',  $key,   SQLITE3_TEXT);
         $stmt->bindValue(':st', $st,    SQLITE3_TEXT);
 
-        $stmt->execute() ? print("Success: Flusonic server saved!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Flusonic server saved!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - save_fl_server DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── সেটিংস আপডেট ───────────────────────────────────────
@@ -367,7 +406,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':p', $hash,  SQLITE3_TEXT);
         $stmt->bindValue(':r', $urole, SQLITE3_TEXT);
 
-        $stmt->execute() ? print("Success: New user created!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: New user created!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - add_user DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── পাসওয়ার্ড আপডেট ────────────────────────────────────
@@ -390,7 +434,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':p',  $hash, SQLITE3_TEXT);
         $stmt->bindValue(':id', $uid,  SQLITE3_INTEGER);
 
-        $stmt->execute() ? print("Success: Password updated!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Password updated!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - save_user DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     // ── ডিলিট ───────────────────────────────────────────────
@@ -418,7 +467,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $stmt = $db->prepare("DELETE FROM $tbl WHERE id=:id");
         $stmt->bindValue(':id', $id, SQLITE3_INTEGER);
-        $stmt->execute() ? print("Success: Deleted!") : print("Error: " . $db->lastErrorMsg());
+        if ($stmt->execute()) {
+            print("Success: Deleted!");
+        } else {
+            @file_put_contents(LOG_DIR . '/errors.log', date('c') . " - del DB error: " . $db->lastErrorMsg() . "\n", FILE_APPEND | LOCK_EX);
+            print("Error: Database error");
+        }
     }
 
     exit;

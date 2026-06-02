@@ -60,7 +60,7 @@ while($row = $settings_res->fetchArray(SQLITE3_ASSOC)) {
     <link rel="stylesheet" href="style.css">
 
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-    <script>var pageToken = '<?= $page_token ?>';</script>
+    <script>var pageToken = '<?= htmlspecialchars($page_token, ENT_QUOTES, 'UTF-8') ?>';</script>
     
     <style>
         .ch-img { position: relative; }
@@ -122,14 +122,14 @@ while($row = $settings_res->fetchArray(SQLITE3_ASSOC)) {
         <div class="header-wrapper">
             <div class="logo">
                 <?php if (!empty($sys_settings['sys_logo'])): ?>
-                    <img src="<?= $sys_settings['sys_logo'] ?>" alt="ottking" style="max-height: 40px;">
+                    <img src="<?= htmlspecialchars($sys_settings['sys_logo'], ENT_QUOTES, 'UTF-8') ?>" alt="ottking" style="max-height: 40px;">
                 <?php else: ?>
                     <i class="fa fa-play-circle"></i> <span>OTT - KING</span>
                 <?php endif; ?>
             </div>
             <div class="app-downloads">
-                <?php if(!empty($sys_settings['app_mobile'])): ?><a href="<?= $sys_settings['app_mobile'] ?>" class="app-btn mobile-app animate-pulse"><i class="fa fa-mobile"></i> Mobile</a><?php endif; ?>
-                <?php if(!empty($sys_settings['app_tv'])): ?><a href="<?= $sys_settings['app_tv'] ?>" class="app-btn tv-app animate-pulse"><i class="fa fa-television"></i> TV App</a><?php endif; ?>
+                <?php if(!empty($sys_settings['app_mobile'])): ?><a href="<?= htmlspecialchars($sys_settings['app_mobile'], ENT_QUOTES, 'UTF-8') ?>" class="app-btn mobile-app animate-pulse"><i class="fa fa-mobile"></i> Mobile</a><?php endif; ?>
+                <?php if(!empty($sys_settings['app_tv'])): ?><a href="<?= htmlspecialchars($sys_settings['app_tv'], ENT_QUOTES, 'UTF-8') ?>" class="app-btn tv-app animate-pulse"><i class="fa fa-television"></i> TV App</a><?php endif; ?>
             </div>
         </div>
     </div>
@@ -186,20 +186,20 @@ while($row = $settings_res->fetchArray(SQLITE3_ASSOC)) {
                 $cat_query->reset(); 
                 while($cat = $cat_query->fetchArray(SQLITE3_ASSOC)): 
                 ?>
-                    <button class="filter-btn" data-filter=".cat-<?= $cat['cat_id'] ?>"><?= $cat['cat_name'] ?></button>
+                    <button class="filter-btn" data-filter=".cat-<?= htmlspecialchars($cat['cat_id'], ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($cat['cat_name'], ENT_QUOTES, 'UTF-8') ?></button>
                 <?php endwhile; ?>
             </div>
         </div>
 
         <div class="channels-grid">
             <?php while($ch = $channel_query->fetchArray(SQLITE3_ASSOC)): ?>
-            <div class="channel item cat-<?= $ch['category_id'] ?>" data-slug="<?= $ch['channel_slug'] ?>" data-name="<?= strtolower($ch['channel_name']) ?>">
+            <div class="channel item cat-<?= htmlspecialchars($ch['category_id'], ENT_QUOTES, 'UTF-8') ?>" data-slug="<?= htmlspecialchars($ch['channel_slug'], ENT_QUOTES, 'UTF-8') ?>" data-name="<?= htmlspecialchars(strtolower($ch['channel_name']), ENT_QUOTES, 'UTF-8') ?>">
                 <div class="ch-img">
-                    <div class="fav-icon" onclick="toggleFav('<?= $ch['channel_slug'] ?>')"><i class="fa fa-heart"></i></div>
-                    <img src="<?= !empty($ch['logo']) ? $ch['logo'] : 'assets/images/default.jpg' ?>" alt="<?= $ch['channel_name'] ?>">
+                    <div class="fav-icon" onclick="toggleFav('<?= htmlspecialchars($ch['channel_slug'], ENT_QUOTES, 'UTF-8') ?>')"><i class="fa fa-heart"></i></div>
+                    <img src="<?= htmlspecialchars(!empty($ch['logo']) ? $ch['logo'] : 'assets/images/default.jpg', ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($ch['channel_name'], ENT_QUOTES, 'UTF-8') ?>">
                     <a href="#" target="tv"></a>
                 </div>
-                <div class="ch-info"><h3><?= $ch['channel_name'] ?></h3></div>
+                <div class="ch-info"><h3><?= htmlspecialchars($ch['channel_name'], ENT_QUOTES, 'UTF-8') ?></h3></div>
             </div>
             <?php endwhile; ?>
         </div>

@@ -15,12 +15,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Brute-force: সামান্য delay
     usleep(200000); // 0.2s
 
+  // CSRF protection for login form
+  $posted_csrf = $_POST['csrf_token'] ?? '';
+  if (!hash_equals($_SESSION['csrf_token'] ?? '', $posted_csrf)) {
+    $error = "Invalid request.";
+  }
+
     $user = trim($_POST['username'] ?? '');
     $pass = $_POST['password'] ?? '';
 
     if (empty($user) || empty($pass)) {
         $error = "Username ও Password দিন।";
-    } elseif ($user === ROOT_USER && $pass === ROOT_PASS) {
+    } elseif (ROOT_PASS !== '' && $user === ROOT_USER && $pass === ROOT_PASS) {
         // Root login
         session_regenerate_id(true);
         $_SESSION['user_id']  = 0;
@@ -79,6 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php endif; ?>
 
     <form method="POST" autocomplete="off">
+      <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($_SESSION['csrf_token'] ?? '', ENT_QUOTES, 'UTF-8') ?>">
       <div class="mb-3">
         <label class="form-label small fw-bold text-muted text-uppercase">Username</label>
         <input type="text" name="username" class="form-control" placeholder="Username দিন" required autofocus>
